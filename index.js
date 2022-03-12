@@ -9,3 +9,10 @@
 
 BONUS: add logic in the square function to ensure that the argument is a number, if it isn't then console log something to the user 
 */
+
+
+const getSquare = require('./function')
+
+
+const {square} = getSquare()
+console.log(square('a'))
