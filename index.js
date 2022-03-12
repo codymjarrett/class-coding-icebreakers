@@ -15,4 +15,5 @@ const getSquare = require('./function')
 
 
 const {square} = getSquare()
+console.log(square(5))
 console.log(square('a'))
